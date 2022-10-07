@@ -1,0 +1,303 @@
+# 我们建议对于UE4引擎项目使用以下配置：
+# mac binaries
+*.dylib filter=lfs diff=lfs merge=binary -text
+*.dsym filter=lfs diff=lfs merge=binary -text
+*.app filter=lfs diff=lfs merge=binary -text
+*.ipa filter=lfs diff=lfs merge=binary -text
+*.dmg filter=lfs diff=lfs merge=binary -text
+# windows binaries
+*.dll filter=lfs diff=lfs merge=binary -text
+*.exe filter=lfs diff=lfs merge=binary -text
+*.lib filter=lfs diff=lfs merge=binary -text
+*.pdb filter=lfs diff=lfs merge=binary -text
+*.dbg filter=lfs diff=lfs merge=binary -text
+# linux binaries
+*.run filter=lfs diff=lfs merge=binary -text
+# Unreal Engine file types.
+*.uasset filter=lfs diff=lfs merge=binary -text
+*.umap filter=lfs diff=lfs merge=binary -text
+# Raw Content file types.
+*.fbx filter=lfs diff=lfs merge=binary -text
+*.FBX filter=lfs diff=lfs merge=binary -text
+*.3ds filter=lfs diff=lfs merge=binary -text
+*.psd filter=lfs diff=lfs merge=binary -text
+*.png filter=lfs diff=lfs merge=binary -text
+*.mp3 filter=lfs diff=lfs merge=binary -text
+*.wav filter=lfs diff=lfs merge=binary -text
+*.xcf filter=lfs diff=lfs merge=binary -text
+*.jpg filter=lfs diff=lfs merge=binary -text
+*.hdr filter=lfs diff=lfs merge=binary -text
+*.duf filter=lfs diff=lfs merge=binary -text
+*.mov filter=lfs diff=lfs merge=binary -text
+*.mb filter=lfs diff=lfs merge=binary -text
+*.tif filter=lfs diff=lfs merge=binary -text
+*.cubemap filter=lfs diff=lfs merge=binary -text
+*.tga filter=lfs diff=lfs merge=binary -text
+*.TGA filter=lfs diff=lfs merge=binary -text
+*.bnk filter=lfs diff=lfs merge=binary -text
+*.bmp filter=lfs diff=lfs merge=binary -text
+*.ttf filter=lfs diff=lfs merge=binary -text
+*.po filter=lfs diff=lfs merge=binary -text
+*.navmesh filter=lfs diff=lfs merge=binary -text
+#压缩包
+*.zip filter=lfs diff=lfs merge=binary -text
+*.pak filter=lfs diff=lfs merge=binary -text
+*.archive filter=lfs diff=lfs merge=binary -text
+# 安装包或可执行程序
+*.msi filter=lfs diff=lfs merge=binary -text
+*.apk filter=lfs diff=lfs merge=binary -text
+# disk image
+*.iso filter=lfs diff=lfs merge=binary -text
+*.bin filter=lfs diff=lfs merge=binary -text
+*.dmg filter=lfs diff=lfs merge=binary -text
+*.cue filter=lfs diff=lfs merge=binary -text
+*.raw filter=lfs diff=lfs merge=binary -text
+# 其他
+*.pyd filter=lfs diff=lfs merge=binary -text
+*.pyc filter=lfs diff=lfs merge=binary -text
+*.osm filter=lfs diff=lfs merge=binary -text
+*.otf filter=lfs diff=lfs merge=binary -text
+*.nupkg filter=lfs diff=lfs merge=binary -text
+*.hip filter=lfs diff=lfs merge=binary -text
+*.pch filter=lfs diff=lfs merge=binary -text
+*.ilk filter=lfs diff=lfs merge=binary -text
+*.wem filter=lfs diff=lfs merge=binary -text
+# 视频
+*.mp4 filter=lfs diff=lfs merge=binary -text
+*.avi filter=lfs diff=lfs merge=binary -text
+*.mkv filter=lfs diff=lfs merge=binary -text
+*.wmv filter=lfs diff=lfs merge=binary -text
+*.asf filter=lfs diff=lfs merge=binary -text
+*.asx filter=lfs diff=lfs merge=binary -text
+*.rm filter=lfs diff=lfs merge=binary -text
+*.rmvb filter=lfs diff=lfs merge=binary -text
+*.3gp filter=lfs diff=lfs merge=binary -text
+*.mov filter=lfs diff=lfs merge=binary -text
+*.m4v filter=lfs diff=lfs merge=binary -text
+*.dat filter=lfs diff=lfs merge=binary -text
+*.vob filter=lfs diff=lfs merge=binary -text
+*.dv filter=lfs diff=lfs merge=binary -text
+*.mpeg filter=lfs diff=lfs merge=binary -text
+*.mpg filter=lfs diff=lfs merge=binary -text
+*.mpe filter=lfs diff=lfs merge=binary -text
+*.m2v filter=lfs diff=lfs merge=binary -text
+*.webm filter=lfs diff=lfs merge=binary -text
+*.flv filter=lfs diff=lfs merge=binary -text
+*.vob filter=lfs diff=lfs merge=binary -text
+*.swf filter=lfs diff=lfs merge=binary -text
+*.avc filter=lfs diff=lfs merge=binary -text
+*.arf filter=lfs diff=lfs merge=binary -text
+*.vcr filter=lfs diff=lfs merge=binary -text
+# 图像
+*.psd filter=lfs diff=lfs merge=binary -text
+*.ai filter=lfs diff=lfs merge=binary -text
+*.cdr filter=lfs diff=lfs merge=binary -text
+*.raw filter=lfs diff=lfs merge=binary -text
+*.hdr filter=lfs diff=lfs merge=binary -text
+*.fbx filter=lfs diff=lfs merge=binary -text
+*.prj filter=lfs diff=lfs merge=binary -text
+*.dae filter=lfs diff=lfs merge=binary -text
+*.dwg filter=lfs diff=lfs merge=binary -text
+*.flt filter=lfs diff=lfs merge=binary -text
+*.htr filter=lfs diff=lfs merge=binary -text
+*.iges filter=lfs diff=lfs merge=binary -text
+*.igs filter=lfs diff=lfs merge=binary -text
+*.ige filter=lfs diff=lfs merge=binary -text
+*.ipt filter=lfs diff=lfs merge=binary -text
+*.iam filter=lfs diff=lfs merge=binary -text
+*.lp filter=lfs diff=lfs merge=binary -text
+*.ls filter=lfs diff=lfs merge=binary -text
+*.shp filter=lfs diff=lfs merge=binary -text
+*.aep filter=lfs diff=lfs merge=binary -text
+*.psb filter=lfs diff=lfs merge=binary -text
+*.edx filter=lfs diff=lfs merge=binary -text
+*.cds filter=lfs diff=lfs merge=binary -text
+# 音频
+*.ape filter=lfs diff=lfs merge=binary -text
+*.wav filter=lfs diff=lfs merge=binary -text
+*.flac filter=lfs diff=lfs merge=binary -text
+*.aiff filter=lfs diff=lfs merge=binary -text
+*.aac filter=lfs diff=lfs merge=binary -text
+*.cpa filter=lfs diff=lfs merge=binary -text
+*.swa filter=lfs diff=lfs merge=binary -text
+*.sesx filter=lfs diff=lfs merge=binary -text
+*.ses filter=lfs diff=lfs merge=binary -text
+# 库文件
+*.a filter=lfs diff=lfs merge=binary -text
+*.o filter=lfs diff=lfs merge=binary -text
+*.so filter=lfs diff=lfs merge=binary -text
+*.lib filter=lfs diff=lfs merge=binary -text
+# 安装包或可执行程序
+*.msi filter=lfs diff=lfs merge=binary -text
+*.exe filter=lfs diff=lfs merge=binary -text
+*.ipa filter=lfs diff=lfs merge=binary -text
+# 压缩包
+*.7z filter=lfs diff=lfs merge=binary -text
+*.zip filter=lfs diff=lfs merge=binary -text
+*.tar filter=lfs diff=lfs merge=binary -text
+*.gz filter=lfs diff=lfs merge=binary -text
+*.tgz filter=lfs diff=lfs merge=binary -text
+*.rar filter=lfs diff=lfs merge=binary -text
+*.bz2 filter=lfs diff=lfs merge=binary -text
+*.Z filter=lfs diff=lfs merge=binary -text
+# auto generated by UGit 
+*.sln filter=lfs diff=lfs merge=binary -text
+Tools/python/Doc/python395.chm filter=lfs diff=lfs merge=lfs -text
+
+# 我们建议对于UE4引擎项目使用以下配置：
+
+# mac binaries
+*.[dD][yY][lL][iI][bB] filter=lfs diff=lfs merge=binary -text
+*.[dD][sS][yY][mM] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][pP] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][aA] filter=lfs diff=lfs merge=binary -text
+*.[dD][mM][gG] filter=lfs diff=lfs merge=binary -text
+
+# windows binaries
+*.[dD][lL][lL] filter=lfs diff=lfs merge=binary -text
+*.[eE][xX][eE] filter=lfs diff=lfs merge=binary -text
+*.[lL][iI][bB] filter=lfs diff=lfs merge=binary -text
+*.[pP][dD][bB] filter=lfs diff=lfs merge=binary -text
+*.[dD][bB][gG] filter=lfs diff=lfs merge=binary -text
+
+# linux binaries
+*.[rR][uU][nN] filter=lfs diff=lfs merge=binary -text
+
+# Unreal Engine file types.
+*.uasset filter=lfs diff=lfs merge=binary -text
+*.umap filter=lfs diff=lfs merge=binary -text
+
+# Raw Content file types.
+*.[fF][bB][xX] filter=lfs diff=lfs merge=binary -text
+*.3[dD][sS] filter=lfs diff=lfs merge=binary -text
+*.[pP][sS][dD] filter=lfs diff=lfs merge=binary -text
+*.[pP][nN][gG] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP]3 filter=lfs diff=lfs merge=binary -text
+*.[wW][aA][vV] filter=lfs diff=lfs merge=binary -text
+*.[xX][cC][fF] filter=lfs diff=lfs merge=binary -text
+*.[jJ][pP][gG] filter=lfs diff=lfs merge=binary -text
+*.[hH][dD][rR] filter=lfs diff=lfs merge=binary -text
+*.[dD][uU][fF] filter=lfs diff=lfs merge=binary -text
+*.[mM][oO][vV] filter=lfs diff=lfs merge=binary -text
+*.[mM][bB] filter=lfs diff=lfs merge=binary -text
+*.[tT][iI][fF] filter=lfs diff=lfs merge=binary -text
+*.[cC][uU][bB][eE][mM][aA][pP] filter=lfs diff=lfs merge=binary -text
+*.[tT][gG][aA] filter=lfs diff=lfs merge=binary -text
+
+*.[bB][nN][kK] filter=lfs diff=lfs merge=binary -text
+*.[bB][mM][pP] filter=lfs diff=lfs merge=binary -text
+*.[tT][tT][fF] filter=lfs diff=lfs merge=binary -text
+*.[pP][oO] filter=lfs diff=lfs merge=binary -text
+*.[nN][aA][vV][mM][eE][sS][hH] filter=lfs diff=lfs merge=binary -text
+
+#压缩包
+*.[zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[pP][aA][kK] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][cC][hH][iI][vV][eE] filter=lfs diff=lfs merge=binary -text
+
+# 安装包或可执行程序
+*.[mM][sS][iI] filter=lfs diff=lfs merge=binary -text
+*.[aA][pP][kK] filter=lfs diff=lfs merge=binary -text
+
+# disk image
+*.[iI][sS][oO] filter=lfs diff=lfs merge=binary -text
+*.[bB][iI][nN] filter=lfs diff=lfs merge=binary -text
+*.[dD][mM][gG] filter=lfs diff=lfs merge=binary -text
+*.[cC][uU][eE] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][wW] filter=lfs diff=lfs merge=binary -text
+
+# 其他
+*.[pP][yY][dD] filter=lfs diff=lfs merge=binary -text
+*.[pP][yY][cC] filter=lfs diff=lfs merge=binary -text
+*.[oO][sS][mM] filter=lfs diff=lfs merge=binary -text
+*.[oO][tT][fF] filter=lfs diff=lfs merge=binary -text
+*.[nN][uU][pP][kK][gG] filter=lfs diff=lfs merge=binary -text
+*.[hH][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[pP][cC][hH] filter=lfs diff=lfs merge=binary -text
+*.[iI][lL][kK] filter=lfs diff=lfs merge=binary -text
+*.[wW][eE][mM] filter=lfs diff=lfs merge=binary -text
+
+
+# 视频
+*.[mM][pP]4 filter=lfs diff=lfs merge=binary -text
+*.[aA][vV][iI] filter=lfs diff=lfs merge=binary -text
+*.[mM][kK][vV] filter=lfs diff=lfs merge=binary -text
+*.[wW][mM][vV] filter=lfs diff=lfs merge=binary -text
+*.[aA][sS][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[rR][mM] filter=lfs diff=lfs merge=binary -text
+*.[rR][mM][vV][bB] filter=lfs diff=lfs merge=binary -text
+*.3[gG][pP] filter=lfs diff=lfs merge=binary -text
+*.[mM][oO][vV] filter=lfs diff=lfs merge=binary -text
+*.[mM]4[vV] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][tT] filter=lfs diff=lfs merge=binary -text
+*.[vV][oO][bB] filter=lfs diff=lfs merge=binary -text
+*.[dD][vV] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][eE][gG] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][gG] filter=lfs diff=lfs merge=binary -text
+*.[mM][pP][eE] filter=lfs diff=lfs merge=binary -text
+*.[mM]2[vV] filter=lfs diff=lfs merge=binary -text
+*.[wW][eE][bB][mM] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][vV] filter=lfs diff=lfs merge=binary -text
+*.[vV][oO][bB] filter=lfs diff=lfs merge=binary -text
+*.[sS][wW][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][vV][cC] filter=lfs diff=lfs merge=binary -text
+*.[aA][rR][fF] filter=lfs diff=lfs merge=binary -text
+*.[vV][cC][rR] filter=lfs diff=lfs merge=binary -text
+
+# 图像
+*.[pP][sS][dD] filter=lfs diff=lfs merge=binary -text
+*.[aA][iI] filter=lfs diff=lfs merge=binary -text
+*.[cC][dD][rR] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][wW] filter=lfs diff=lfs merge=binary -text
+*.[hH][dD][rR] filter=lfs diff=lfs merge=binary -text
+*.[fF][bB][xX] filter=lfs diff=lfs merge=binary -text
+*.[pP][rR][jJ] filter=lfs diff=lfs merge=binary -text
+*.[dD][aA][eE] filter=lfs diff=lfs merge=binary -text
+*.[dD][wW][gG] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][tT] filter=lfs diff=lfs merge=binary -text
+*.[hH][tT][rR] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][eE][sS] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][sS] filter=lfs diff=lfs merge=binary -text
+*.[iI][gG][eE] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][tT] filter=lfs diff=lfs merge=binary -text
+*.[iI][aA][mM] filter=lfs diff=lfs merge=binary -text
+*.[lL][pP] filter=lfs diff=lfs merge=binary -text
+*.[lL][sS] filter=lfs diff=lfs merge=binary -text
+*.[sS][hH][pP] filter=lfs diff=lfs merge=binary -text
+*.[aA][eE][pP] filter=lfs diff=lfs merge=binary -text
+*.[pP][sS][bB] filter=lfs diff=lfs merge=binary -text
+*.[eE][dD][xX] filter=lfs diff=lfs merge=binary -text
+*.[cC][dD][sS] filter=lfs diff=lfs merge=binary -text
+
+# 音频
+*.[aA][pP][eE] filter=lfs diff=lfs merge=binary -text
+*.[wW][aA][vV] filter=lfs diff=lfs merge=binary -text
+*.[fF][lL][aA][cC] filter=lfs diff=lfs merge=binary -text
+*.[aA][iI][fF][fF] filter=lfs diff=lfs merge=binary -text
+*.[aA][aA][cC] filter=lfs diff=lfs merge=binary -text
+*.[cC][pP][aA] filter=lfs diff=lfs merge=binary -text
+*.[sS][wW][aA] filter=lfs diff=lfs merge=binary -text
+*.[sS][eE][sS][xX] filter=lfs diff=lfs merge=binary -text
+*.[sS][eE][sS] filter=lfs diff=lfs merge=binary -text
+
+# 库文件
+*.[aA] filter=lfs diff=lfs merge=binary -text
+*.[oO] filter=lfs diff=lfs merge=binary -text
+*.[sS][oO] filter=lfs diff=lfs merge=binary -text
+*.[lL][iI][bB] filter=lfs diff=lfs merge=binary -text
+
+# 安装包或可执行程序
+*.[mM][sS][iI] filter=lfs diff=lfs merge=binary -text
+*.[eE][xX][eE] filter=lfs diff=lfs merge=binary -text
+*.[iI][pP][aA] filter=lfs diff=lfs merge=binary -text
+
+# 压缩包
+*.7[zZ] filter=lfs diff=lfs merge=binary -text
+*.[zZ][iI][pP] filter=lfs diff=lfs merge=binary -text
+*.[tT][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[gG][zZ] filter=lfs diff=lfs merge=binary -text
+*.[tT][gG][zZ] filter=lfs diff=lfs merge=binary -text
+*.[rR][aA][rR] filter=lfs diff=lfs merge=binary -text
+*.[bB][zZ]2 filter=lfs diff=lfs merge=binary -text
+*.[zZ] filter=lfs diff=lfs merge=binary -text

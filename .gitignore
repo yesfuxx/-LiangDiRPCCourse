@@ -1,0 +1,9 @@
+.vs/
+.idea/
+Binaries/
+Intermediate/
+DerivedDataCache/
+Saved/
+Content/StartContent/
+*.sln
+*.xcodeproj
